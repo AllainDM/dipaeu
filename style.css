@@ -1,0 +1,62 @@
+body {
+    background: rgb(225, 230, 223);
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    /* width: 1024px; */
+    width: 75%;
+    margin: 0 auto;
+    
+}
+
+header {
+    /* width: 1024px; */
+    width: 100%;
+    /* width: auto; */
+    margin: 0 auto;
+}
+
+.mainmenu {
+    /* width: 1024px; */
+    width: 100%;
+    margin: 0 auto;
+}
+
+ul.mainmenu {
+	list-style: none;
+	background: #3F4137;
+	height: 60px;
+	margin: 0;
+	padding: 0;
+	color: #fdc073;
+	font-size: 20px;
+	overflow: hidden;
+}
+ul.mainmenu li {
+	float: left;
+	margin: 18px 40px 0 50px;
+}
+ul.mainmenu li.last {float: right;}
+
+ul.mainmenu li a {
+	color: #fdc073;
+	text-decoration: none;
+}
+ul.mainmenu li a:hover {
+	color: #FDA83D;
+}
+
+.container{
+    /* width: 1024px; */
+    width: 100%;
+	margin: 0px 20px 0px;
+}
+
+a { 
+    text-decoration: none; /* Отменяем подчеркивание у ссылки */
+	color: #473927;
+   }
+
+.map img{
+    width: 100%;
+    /* margin: 0 auto; */
+}
