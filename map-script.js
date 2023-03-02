@@ -6,6 +6,7 @@ const polit = document.getElementById("polit");
 const resources = document.getElementById("resources");
 const ethic = document.getElementById("ethic");
 const religion = document.getElementById("religion");
+const climate = document.getElementById("climate");
 
 igroki.addEventListener("click",() => {
     img.src="maps/igroki.png"
@@ -25,4 +26,8 @@ ethic.addEventListener("click",() => {
 
 religion.addEventListener("click",() => {
     img.src="maps/religion.png"
+})
+
+climate.addEventListener("click",() => {
+    img.src="maps/climate.png"
 })

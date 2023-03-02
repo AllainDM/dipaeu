@@ -47,7 +47,7 @@ ul.mainmenu li a:hover {
 
 .container{
     /* width: 1024px; */
-    width: 100%;
+    width: 75%;
 	margin: 0px 20px 0px;
 }
 
@@ -58,6 +58,9 @@ a {
 
 .map img{
     width: 100%;
+    /* display: block;
+    margin-left: auto;
+    margin-right: auto; */
     /* margin: 0 auto; */
 }
 
