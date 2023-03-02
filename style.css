@@ -60,3 +60,11 @@ a {
     width: 100%;
     /* margin: 0 auto; */
 }
+
+.btn {
+    margin-top: 10px;
+    background-color: rgb(212, 210, 221);
+    width: 170px;
+    height: 30px;
+    border-radius: 5px;font-size: 20px;
+}
