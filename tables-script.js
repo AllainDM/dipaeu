@@ -5,6 +5,9 @@ const buildings = document.getElementById("buildings");
 const fpvp = document.getElementById("fpVp");
 const size = document.getElementById("size");
 const hRE = document.getElementById("hRE");
+const fp2 = document.getElementById("fp2");
+const tech = document.getElementById("tech");
+const etnosy = document.getElementById("etnosy");
 
 buildings.addEventListener("click",() => {
     img.src="tables/buildings.png"
@@ -28,4 +31,22 @@ hRE.addEventListener("click",() => {
     img.src="tables/СРИ.jpg"
     img.style.width = "40%"
     img.style.height = "40%"
+});
+
+tech.addEventListener("click",() => {
+    img.src="tables/tech.png"
+    img.style.width = "80%"
+    img.style.height = "80%"
+});
+
+fp2.addEventListener("click",() => {
+    img.src="tables/FP2.jpg"
+    img.style.width = "80%"
+    img.style.height = "80%"
+});
+
+etnosy.addEventListener("click",() => {
+    img.src="tables/etns.png"
+    img.style.width = "60%"
+    img.style.height = "60%"
 });
