@@ -8,6 +8,7 @@ const resources = document.getElementById("resources");
 const ethic = document.getElementById("ethic");
 const religion = document.getElementById("religion");
 const climate = document.getElementById("climate");
+const goroda = document.getElementById("goroda");
 
 img.addEventListener("click",() => {
     if (imgSize == 1) {
@@ -45,4 +46,8 @@ religion.addEventListener("click",() => {
 
 climate.addEventListener("click",() => {
     img.src="maps/climate.png"
+})
+
+goroda.addEventListener("click",() => {
+    img.src="maps/goroda.png"
 })

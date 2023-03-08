@@ -8,6 +8,8 @@ const hRE = document.getElementById("hRE");
 const fp2 = document.getElementById("fp2");
 const tech = document.getElementById("tech");
 const etnosy = document.getElementById("etnosy");
+const religion = document.getElementById("religion");
+
 
 buildings.addEventListener("click",() => {
     img.src="tables/buildings.png"
@@ -49,4 +51,10 @@ etnosy.addEventListener("click",() => {
     img.src="tables/etns.png"
     img.style.width = "60%"
     img.style.height = "60%"
+});
+
+religion.addEventListener("click",() => {
+    img.src="tables/religion.png"
+    img.style.width = "80%"
+    img.style.height = "80%"
 });
