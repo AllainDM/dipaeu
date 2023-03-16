@@ -9,6 +9,7 @@ const fp2 = document.getElementById("fp2");
 const tech = document.getElementById("tech");
 const etnosy = document.getElementById("etnosy");
 const religion = document.getElementById("religion");
+const cult_tradition = document.getElementById("cult_tradition");
 
 
 buildings.addEventListener("click",() => {
@@ -57,4 +58,10 @@ religion.addEventListener("click",() => {
     img.src="tables/religion.png"
     img.style.width = "80%"
     img.style.height = "80%"
+});
+
+cult_tradition.addEventListener("click",() => {
+    img.src="tables/cult_tradition.png"
+    img.style.width = "75%"
+    img.style.height = "75%"
 });
