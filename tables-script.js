@@ -11,6 +11,14 @@ const etnosy = document.getElementById("etnosy");
 const religion = document.getElementById("religion");
 const cult_tradition = document.getElementById("cult_tradition");
 
+const perki_praviteley = document.getElementById("perki_praviteley");
+const unik_postroyki = document.getElementById("unik_postroyki");
+const sovetniki = document.getElementById("sovetniki");
+const prioritety_razvitia = document.getElementById("prioritety_razvitia");
+const holy_places = document.getElementById("holy_places");
+const tactics = document.getElementById("tactics");
+const weather = document.getElementById("weather");
+
 
 buildings.addEventListener("click",() => {
     img.src="tables/buildings.png"
@@ -62,6 +70,53 @@ religion.addEventListener("click",() => {
 
 cult_tradition.addEventListener("click",() => {
     img.src="tables/cult_tradition.png"
+    img.style.width = "75%"
+    img.style.height = "75%"
+});
+
+
+
+
+
+
+perki_praviteley.addEventListener("click",() => {
+    img.src="tables/perki_praviteley.png"
+    img.style.width = "40%"
+    img.style.height = "40%"
+});
+
+unik_postroyki.addEventListener("click",() => {
+    img.src="tables/unik_postroyki.png"
+    img.style.width = "40%"
+    img.style.height = "40%"
+});
+
+sovetniki.addEventListener("click",() => {
+    img.src="tables/sovetniki.png"
+    img.style.width = "75%"
+    img.style.height = "75%"
+});
+
+prioritety_razvitia.addEventListener("click",() => {
+    img.src="tables/prioritety_razvitia.png"
+    img.style.width = "40%"
+    img.style.height = "40%"
+});
+
+holy_places.addEventListener("click",() => {
+    img.src="tables/holy_places.jpg"
+    img.style.width = "40%"
+    img.style.height = "40%"
+});
+
+tactics.addEventListener("click",() => {
+    img.src="tables/tactics.jpg"
+    img.style.width = "100%"
+    img.style.height = "100%"
+});
+
+weather.addEventListener("click",() => {
+    img.src="tables/weather.jpg"
     img.style.width = "75%"
     img.style.height = "75%"
 });
