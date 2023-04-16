@@ -18,6 +18,7 @@ const prioritety_razvitia = document.getElementById("prioritety_razvitia");
 const holy_places = document.getElementById("holy_places");
 const tactics = document.getElementById("tactics");
 const weather = document.getElementById("weather");
+const tovary = document.getElementById("tovary");
 
 
 buildings.addEventListener("click",() => {
@@ -119,4 +120,10 @@ weather.addEventListener("click",() => {
     img.src="tables/weather.jpg"
     img.style.width = "75%"
     img.style.height = "75%"
+});
+
+tovary.addEventListener("click",() => {
+    img.src="tables/tovary.png"
+    img.style.width = "55%"
+    img.style.height = "55%"
 });
