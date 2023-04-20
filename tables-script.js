@@ -19,6 +19,7 @@ const holy_places = document.getElementById("holy_places");
 const tactics = document.getElementById("tactics");
 const weather = document.getElementById("weather");
 const tovary = document.getElementById("tovary");
+const strany = document.getElementById("strany");
 
 
 buildings.addEventListener("click",() => {
@@ -124,6 +125,12 @@ weather.addEventListener("click",() => {
 
 tovary.addEventListener("click",() => {
     img.src="tables/tovary.png"
+    img.style.width = "55%"
+    img.style.height = "55%"
+});
+
+strany.addEventListener("click",() => {
+    img.src="tables/strany.png"
     img.style.width = "55%"
     img.style.height = "55%"
 });
