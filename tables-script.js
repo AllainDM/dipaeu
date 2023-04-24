@@ -17,6 +17,7 @@ const sovetniki = document.getElementById("sovetniki");
 const prioritety_razvitia = document.getElementById("prioritety_razvitia");
 const holy_places = document.getElementById("holy_places");
 const tactics = document.getElementById("tactics");
+const bunus_units = document.getElementById("bunus_units");
 const weather = document.getElementById("weather");
 const tovary = document.getElementById("tovary");
 const strany = document.getElementById("strany");
@@ -115,6 +116,12 @@ tactics.addEventListener("click",() => {
     img.src="tables/tactics.jpg"
     img.style.width = "100%"
     img.style.height = "100%"
+});
+
+bunus_units.addEventListener("click",() => {
+    img.src="img/bunus_units.png"
+    img.style.width = "35%"
+    img.style.height = "35%"
 });
 
 weather.addEventListener("click",() => {
