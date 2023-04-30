@@ -29,7 +29,7 @@ igroki.addEventListener("click",() => {
 })
 
 polit.addEventListener("click",() => {
-    img.src="maps/polit.png"
+    img.src="turns/img/1005.png"
 })
 
 resources.addEventListener("click",() => {

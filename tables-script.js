@@ -131,7 +131,7 @@ weather.addEventListener("click",() => {
 });
 
 tovary.addEventListener("click",() => {
-    img.src="tables/tovary.png"
+    img.src="tables/goods.png"
     img.style.width = "55%"
     img.style.height = "55%"
 });
