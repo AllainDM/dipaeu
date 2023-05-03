@@ -24,6 +24,7 @@ img.addEventListener("click",() => {
     
 });
 
+
 igroki.addEventListener("click",() => {
     img.src="maps/igroki.png"
 })
