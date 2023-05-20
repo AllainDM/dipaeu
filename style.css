@@ -1,6 +1,7 @@
 body {
     background: rgb(225, 230, 223);
-    font-family: Arial, sans-serif;
+    /* font-family: Arial, sans-serif; */
+    font-family: 'Times New Roman', Times, serif;
     font-size: 18px;
     /* width: 1024px; */
     width: 75%;
@@ -71,3 +72,7 @@ a {
     height: 30px;
     border-radius: 5px;font-size: 20px;
 }
+
+/* table {
+    font-size: 10px;
+} */

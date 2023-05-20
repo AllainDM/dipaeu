@@ -20,6 +20,7 @@ const tactics = document.getElementById("tactics");
 const bunus_units = document.getElementById("bunus_units");
 const weather = document.getElementById("weather");
 const tovary = document.getElementById("tovary");
+const mercenaries = document.getElementById("mercenaries");
 const strany = document.getElementById("strany");
 
 
@@ -136,6 +137,11 @@ tovary.addEventListener("click",() => {
     img.style.height = "55%"
 });
 
+mercenaries.addEventListener("click",() => {
+    img.src="tables/mercenaries.jpg"
+    img.style.width = "20%"
+    img.style.height = "20%"
+});
 strany.addEventListener("click",() => {
     img.src="tables/strany.png"
     img.style.width = "55%"
